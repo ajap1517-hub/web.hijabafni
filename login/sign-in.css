@@ -1,0 +1,125 @@
+/* =========================================
+   VERY SOFT COZY PINK LOGIN & REGISTER
+   ========================================= */
+
+html, body {
+  height: 100%;
+  background: #fbf6f7 !important; /* Sangat soft off-white pink */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #927c84; /* Teks abu-abu soft */
+}
+
+.form-signin {
+  max-width: 420px;
+  width: 100%;
+  padding: 40px 30px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 28px;
+  box-shadow: 0 10px 40px rgba(200, 180, 185, 0.15); /* Bayangan sangat tipis */
+  border: 1px solid #f6f0f2;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.form-signin:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 50px rgba(200, 180, 185, 0.2);
+}
+
+.form-signin img {
+  border-radius: 18px;
+  box-shadow: 0 4px 15px rgba(200, 180, 185, 0.15);
+  margin-bottom: 25px !important;
+  opacity: 0.9;
+}
+
+.form-signin h1 {
+  color: #a88d96; /* Pink-abu pucat */
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: 0.2px;
+  margin-bottom: 25px !important;
+}
+
+.form-floating {
+  margin-bottom: 12px;
+}
+
+.form-floating label {
+  color: #b8a3ab;
+  padding-left: 20px;
+}
+
+.form-signin input.form-control,
+.form-signin textarea.form-control {
+  border-radius: 18px !important;
+  padding: 12px 20px;
+  border: 1px solid #f2e8ea !important;
+  background-color: #fcf9fa !important;
+  color: #836d75 !important;
+  transition: all 0.3s ease;
+  margin-bottom: 0 !important;
+  font-size: 0.95rem;
+}
+
+.form-signin textarea.form-control {
+  height: 90px !important;
+  border-radius: 18px !important;
+}
+
+.form-signin input.form-control:focus,
+.form-signin textarea.form-control:focus {
+  background-color: #ffffff !important;
+  border-color: #e6ccd3 !important;
+  box-shadow: 0 0 0 3px rgba(230, 204, 211, 0.25) !important;
+}
+
+.form-check-label {
+  color: #a88d96;
+  font-weight: 500;
+}
+
+.form-check-input:checked {
+  background-color: #dcbac4 !important;
+  border-color: #dcbac4 !important;
+}
+
+.form-signin .btn-primary {
+  background: #ecd4dc !important; /* Pink pastel sangat pucat */
+  color: #8c717a !important; /* Teks senada tapi agak gelap */
+  border: none !important;
+  border-radius: 18px !important;
+  padding: 14px 20px !important;
+  font-weight: 600 !important;
+  font-size: 1.05rem;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 15px rgba(220, 186, 196, 0.2) !important;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+}
+
+.form-signin .btn-primary:hover {
+  background: #e2c3cd !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(220, 186, 196, 0.3) !important;
+}
+
+.form-signin a {
+  color: #a88d96;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.form-signin a:hover {
+  color: #c4a7b0;
+}
+
+.text-body-secondary {
+  color: #cbbdc1 !important;
+}
